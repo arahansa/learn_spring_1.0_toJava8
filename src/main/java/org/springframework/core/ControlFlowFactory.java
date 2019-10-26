@@ -26,6 +26,10 @@ import java.io.StringWriter;
  * a runtime dependency on 1.4.
  * @author Rod Johnson
  * @version $Id: ControlFlowFactory.java,v 1.2 2004/03/18 02:46:06 trisberg Exp $
+ *
+ * 자바 1.4 나 1.3인지 선택하기 위한 싱글턴 팩토리
+ * 우리는 사용할 수 있다면 좀 더 효과적인 1.4 스텍트레이스를 사용할 것이고
+ * 우리는 1.4 에 대한 런타임 의존성을 노출하고 싶진 않다
  */
 public abstract class ControlFlowFactory {
 	
@@ -43,11 +47,7 @@ public abstract class ControlFlowFactory {
 		}
 		public boolean under(Class clazz) {
 			String className = clazz.getName();
-			System.out.println("====================");
-			System.out.println("compare className: "+className);
-			System.out.println("====================");
 			for (int i = 0; i < stack.length; i++) {
-				System.out.println(stack[i].getClassName());
 				if (stack[i].getClassName().equals(className)) {
 					return true;
 				}
@@ -115,11 +115,7 @@ public abstract class ControlFlowFactory {
 
 		public boolean under(Class clazz) {
 			String className = clazz.getName();
-			System.out.println("====================");
-			System.out.println("compare className: "+className);
-			System.out.println("====================");
 			for (int i = 0; i < stack.length; i++) {
-				System.out.println(stack[i].getClassName());
 				if (stack[i].getClassName().equals(className)) {
 					return true;
 				}

@@ -28,6 +28,8 @@ import java.net.URL;
  * physical form, but a URL or File handle can just be returned for
  * certain resources. The actual behavior is implementation-specific.
  *
+ *  파일이나 클래스 패스같은 실제 resource 타입에 대한 추상층에서의 리소스 설명자들을 위한 인터페이스
+ *
  * @author Juergen Hoeller
  * @since 28.12.2003
  */

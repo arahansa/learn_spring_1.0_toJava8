@@ -25,6 +25,10 @@ import java.net.URL;
 /**
  * Resource implementation for java.io.File handles.
  * Obviously supports resolution as File, and also as URL.
+ *
+ * Java.io.File 을 다루기 위한 리소스 구현체로 File 에 대한 해석과 URL 까지 지원
+ *
+ *
  * @author Juergen Hoeller
  * @since 28.12.2003
  * @see File

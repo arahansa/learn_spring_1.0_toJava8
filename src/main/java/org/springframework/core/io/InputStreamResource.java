@@ -23,6 +23,9 @@ import java.io.InputStream;
  * Resource implementation for a given InputStream. Should only
  * be used if no specific Resource implementation is applicable.
  *
+ * 주어진 인풋스트림에 대한 리소스 구현체.
+ * 어떠한 리소스 구현체도 해당하지 않은 경우에 사용?
+ *
  * <p>In contrast to other Resource implementations, this is a descriptor
  * for an <i>already opened</i> resource - therefore returning true on
  * isOpen(). Do not use it if you need to keep the resource descriptor

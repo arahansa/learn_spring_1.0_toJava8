@@ -9,8 +9,8 @@ package org.springframework.core;
  * @author Juergen Hoeller
  * @since 07.04.2003
  *
- * orderable인 오프젝트가 구현해야하는 인터페이스 예를 들자면 콜렉션 같은
- * 실제적
+ * 순서가능한 오프젝트가 구현해야하는 인터페이스 예를 들자면 콜렉션 같은
+ * 실제적 순서는 우선권에 의해 해석된다
  */
 public interface Ordered {
 

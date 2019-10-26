@@ -26,6 +26,8 @@ import java.net.URL;
  * Convenience base class for Resource implementations,
  * pre-implementing typical behavior.
  *
+ * 자원구현체와 일반적 행동을 미리 구현(pre-implementing) 하기 위한 편의 클래스
+ *
  * <p>The "exists" method will check whether a File or InputStream can
  * be opened; "isOpen" will always return false; "getURL" and "getFile"
  * throw an exception; and "toString" will return the description.

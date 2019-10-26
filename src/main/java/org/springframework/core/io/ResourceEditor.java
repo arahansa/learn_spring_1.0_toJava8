@@ -25,6 +25,8 @@ import org.apache.commons.logging.LogFactory;
  * Editor for Resource descriptors, to convert String locations to Resource
  * properties automatically instead of using a String location property.
  *
+ * 리소스 설명자들을 위한 에디터로 문자열 위치를 리소스 속성으로 자동으로 변환해준다. ( ${user.dir} -> 실제 위치 변환을 얘기하는 듯?)
+ *
  * <p>The path may contain ${...} placeholders, to be resolved as
  * system properties: e.g. ${user.dir}.
  *

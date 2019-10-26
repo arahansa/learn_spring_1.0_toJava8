@@ -22,6 +22,9 @@ package org.springframework.core;
  * but not AOP-specific.
  * @author Rod Johnson
  * @version $Id: ControlFlow.java,v 1.2 2004/03/18 02:46:06 trisberg Exp $
+ *
+ * 현재 콜스택에 대한 정보를 리턴하는 오브젝트에 의해 구현될 인터페이스
+ * AOP 에서 유용하겠지만, AOP 전용은 아니다
  */
 public interface ControlFlow {
 	

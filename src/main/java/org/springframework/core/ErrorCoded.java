@@ -29,6 +29,10 @@ package org.springframework.core;
  * @author Rod Johnson
  * @version $Id: ErrorCoded.java,v 1.3 2004/03/18 02:46:06 trisberg Exp $
  * @see org.springframework.context.MessageSource
+ *
+ * 예외에 의해 구현될 인터페이스로 에러코드는 문자열, 숫자가 되어서 유저가 읽을 수 있는 값같은 것으로 변환될 것이다.
+ * 에러코드는 MessageSource 에 의해 해석될 것이다
+ *
  */
 public interface ErrorCoded {
 	

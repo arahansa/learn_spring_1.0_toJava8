@@ -28,6 +28,10 @@ import java.net.URLDecoder;
  * Uses either the Thread context class loader or a given
  * Class for loading resources.
  *
+ * 클래스 패스의 자원들을 위한 리소스 구현체.
+ * 불러오는 자원에 대한 클래스또는 쓰레드 컨텍스트에서 사용
+ *
+ *
  * <p>Supports resolution as File if the class path resource
  * resides in the file system, but not for resources in a JAR.
  * Always supports resolution as URL.

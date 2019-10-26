@@ -23,6 +23,9 @@ import java.net.URL;
  * Default implementation of the ResourceLoader interface.
  * Used by ResourceEditor, but also suitable for standalone usage.
  *
+ * ResourceLoader 인터페이스를 위한 기본적 구현체
+ * ResourceEditor에 사용되며 또한 독립적인 사용에도 적합하다
+ *
  * <p>Will return an UrlResource if the location value is a URL, and a
  * ClassPathResource if it is a non-URL path or a "classpath:" pseudo-URL.
  *

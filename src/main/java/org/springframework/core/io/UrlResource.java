@@ -28,6 +28,9 @@ import java.net.URLDecoder;
  * Resource implementation for java.net.URL locators.
  * Obviously supports resolution as URL, and also as File
  * in case of the "file:" protocol.
+ *
+ * java.net.URL 을 위한 리소스 구현체로 특별히 URL, 또한 file: 프로토콜을 위한 File 을 지원합니다
+ *
  * @author Juergen Hoeller
  * @since 28.12.2003
  * @see URL

@@ -26,6 +26,8 @@ import java.util.Comparator;
  * thus ending up at the end of the list, in arbitrary order
  * (just like same order values of Ordered objects).
  *
+ * 순서있는 객체들을 위한 비교구현체
+ *
  * @author Juergen Hoeller
  * @since 07.04.2003
  * @see Ordered

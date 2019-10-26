@@ -20,6 +20,8 @@ package org.springframework.core.io;
  * Interface to be implemented by objects that can load resources.
  * An ApplicationContext is required to provide this functionality.
  *
+ * resource들을 불러오는 객체에 의해 구현될 인터페이스로 ApplicationContext 는 이 기능을 제공해야 합니다
+ *
  * <p>DefaultResourceLoader is a standalone implementation that is
  * usable outside an ApplicationContext, also used by ResourceEditor.
  *

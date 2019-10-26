@@ -25,6 +25,8 @@ import java.io.PrintWriter;
  * exception nesting. Thus exceptions in applications written to use Java 1.4 need not
  * extend this class.
  *
+ * 체크예외를 랩핑하기 위한 편의성 클래스
+ *
  * <p>Abstract to force the programmer to extend the class.
  * printStackTrace() etc. are forwarded to the wrapped Exception.
  * The present assumption is that all application-specific exceptions that could be
@@ -40,6 +42,8 @@ import java.io.PrintWriter;
  *
  * @author Rod Johnson
  * @version $Id: NestedCheckedException.java,v 1.6 2004/03/18 02:46:06 trisberg Exp $
+ *
+ *
  */
 public abstract class NestedCheckedException extends Exception {
 

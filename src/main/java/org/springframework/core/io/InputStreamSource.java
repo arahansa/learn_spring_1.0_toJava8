@@ -22,6 +22,9 @@ import java.io.InputStream;
 /**
  * Simple interface for objects that are sources for java.io.InputStreams.
  * Base interface for Spring's Resource interface.
+ *
+ * java.io.InputStreams 를 위한 소스 오브젝트에 대한 간단한 인터페이스로 Spring의 Resource 인터페이스에 대한 기반 인터페이스
+ *
  * @author Juergen Hoeller
  * @since 20.01.2004
  * @see Resource

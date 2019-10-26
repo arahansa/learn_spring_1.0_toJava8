@@ -22,6 +22,8 @@ package org.springframework.core;
  * (Spring does not support 1.2 JVMs.)
  * @author Rod Johnson
  * @version $Id: JdkVersion.java,v 1.2 2004/03/18 02:46:06 trisberg Exp $
+ *
+ * 현재 JVM version 을 찾기 위해 사용되는 클래스
  */
 public class JdkVersion {
 	
