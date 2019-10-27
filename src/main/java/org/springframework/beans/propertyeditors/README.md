@@ -1,0 +1,9 @@
+# beans/propertyeditors 패키지
+
+Properties editors 는 문자열 값을 java.util.Properties 같은 객체 타입으로 변환하기 위해 사용됩니다
+몇몇개의 에디터들은 BeanWrapperImpl에 의해 자동으로 등록되어집니다
+CustomXxxEditor 클래스들은 특정 바인딩 프로세스들을 위하여 수동 등록으로 의도되어졌습니다.
+
+---
+
+- PropertiesEditor : java.util.Properties 객체들을 위한 에디터로, 문자열에서 Properties 객체로의 전환을 다룹니다.
