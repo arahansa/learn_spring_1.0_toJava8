@@ -26,8 +26,12 @@ import java.util.List;
  * Static convenience methods for JavaBeans, for instantiating beans,
  * copying bean properties, etc.
  *
+ * 자바빈즈, 빈 인스턴스화, 빈 속성들을 복사하기 위한 정적 편리 메소드들.
+ *
  * <p>Mainly for use within the framework, but to some degree also
  * useful for application classes.
+ *
+ * 주로 어플리케이션내에서 사용되지만, 어플리케이션 클래스들에서도 어느정도는 유용하기도합니다.
  *
  * @author Rod Johnson
  * @author Juergen Hoeller

@@ -30,6 +30,8 @@ import java.util.Map;
  * Class to cache PropertyDescriptor information for a Java class.
  * Package-visible; not for use by application code.
  *
+ * 자바클래스를 위한 PropertyDescriptor 정보를 캐시하기 위한 클래스입니다.
+ *
  * <p>Necessary as Introspector.getBeanInfo() in JDK 1.3 will return a new
  * deep copy of the BeanInfo every time we ask for it. We take the opportunity
  * to hash property descriptors by method name for fast lookup.

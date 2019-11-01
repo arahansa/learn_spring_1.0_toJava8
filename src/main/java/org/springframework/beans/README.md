@@ -15,7 +15,7 @@
 - BeansException : 빈, 서브패키지에서의 던져지는 모든 예외들에 대한 추상클래스
 - BeanWrapper : 스프링 로우레벨 자바빈즈 인프라스트럭쳐의 핵심 인터페이스
 - BeanWrapperImpl : BeanWrapper 인터페이스의 의 기본구현체(중요)
-
+- FatalBeanException : 빈/하위 패키지에서 나쁜 클래스나 필드같은 복구불가능한 문제에 직면했을 때 던져지는 예외
 - MutablePropertyValues : PropertyValues 에 대한 기본 구현체로 properties 에 대한 단순한 생성과 맵으로부터의 구성 딥카피를 지원하기 위한 생성자의 제공을 허용합니다.
 - PropertyValue : 각각의 속성들에 대한 정보와 값을 가지기 위한 클래스
 
